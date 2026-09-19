@@ -106,27 +106,6 @@ npm run lint       # Runs Oxlint
 
 ---
 
-## 🌐 Deployment
-
-This is a static Vite build (`dist/` folder), so it can be deployed to any static host:
-
-- **Vercel** — Import the GitHub repo → framework preset "Vite" → deploy (zero config needed).
-- **Netlify** — Build command: `npm run build`, publish directory: `dist`.
-- **GitHub Pages** — Build with `npm run build`, then publish the `dist/` folder using `gh-pages` or a GitHub Actions workflow.
-
----
-
-
----
-
-## 📌 Notes / TODO
-
-- Update placeholder GitHub links in `Projects.tsx` (`githubUrl: 'https://github.com/Rohitghosh14'`) to point to each project's actual dedicated repository once it's live.
-- Replace the placeholder Instagram link in `Footer.tsx` with your actual profile URL, or remove it.
-- `hero.png` in `src/assets/` is currently unused by any component — remove it if not needed, or wire it in if it was meant to appear somewhere.
-
----
-
 ## 📄 License
 
 Personal portfolio — feel free to reference the structure, but please don't republish the content (bio, project descriptions) as your own.
